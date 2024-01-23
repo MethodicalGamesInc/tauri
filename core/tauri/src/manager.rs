@@ -397,7 +397,7 @@ impl<R: Runtime> WindowManager<R> {
         } else {
           "https"
         };
-        Cow::Owned(Url::parse(&format!("{scheme}://localhost:55665")).unwrap())
+        Cow::Owned(Url::parse(&format!("{scheme}://localhost")).unwrap())
       }
       #[cfg(not(windows))]
       _ => Cow::Owned(Url::parse("tauri://localhost").unwrap()),
