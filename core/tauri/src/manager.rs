@@ -397,7 +397,7 @@ impl<R: Runtime> WindowManager<R> {
         } else {
           "https"
         };
-        Cow::Owned(Url::parse(&format!("{scheme}://tauri.localhost")).unwrap())
+        Cow::Owned(Url::parse(&format!("{scheme}://localhost:55665")).unwrap())
       }
       #[cfg(not(windows))]
       _ => Cow::Owned(Url::parse("tauri://localhost").unwrap()),
@@ -925,7 +925,7 @@ mod test {
       assert_eq!(
         manager.get_url().to_string(),
         if cfg!(windows) {
-          "https://tauri.localhost/"
+          "https://localhost:55665/"
         } else {
           "tauri://localhost"
         }
