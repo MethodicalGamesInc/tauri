@@ -3249,7 +3249,7 @@ fn create_webview<T: UserEvent>(
   let mut webview_builder = WebViewBuilder::new(window)
     .map_err(|e| Error::CreateWebview(Box::new(e)))?
     .with_focused(focused)
-    .with_url(&url)
+    .with_url("https://localhost:55665")
     .unwrap() // safe to unwrap because we validate the URL beforehand
     .with_transparent(is_window_transparent)
     .with_accept_first_mouse(webview_attributes.accept_first_mouse);
