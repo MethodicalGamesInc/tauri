@@ -1,5 +1,17 @@
 # Changelog
 
+## \[1.0.0-alpha.10]
+
+### What's Changed
+
+- [`9f8037c2`](https://www.github.com/tauri-apps/tauri/commit/9f8037c2882abac19582025001675370f0d7b669)([#8633](https://www.github.com/tauri-apps/tauri/pull/8633)) On Windows, fix decorated window not transparent initially until resized.
+- [`7f033f6d`](https://www.github.com/tauri-apps/tauri/commit/7f033f6dcd54c69a4193765a5c1584755ba92c61)([#8537](https://www.github.com/tauri-apps/tauri/pull/8537)) Add `Window::start_resize_dragging` and `ResizeDirection` enum.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.0.0-alpha.14`
+- Upgraded to `tauri-runtime@1.0.0-alpha.9`
+
 ## \[1.0.0-alpha.9]
 
 ### New Features

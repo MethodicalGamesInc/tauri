@@ -1,5 +1,12 @@
 # Changelog
 
+## \[2.0.0-alpha.15]
+
+### New Features
+
+- [`74a2a603`](https://www.github.com/tauri-apps/tauri/commit/74a2a6036a5e57462f161d728cbd8a6f121028ca)([#8661](https://www.github.com/tauri-apps/tauri/pull/8661)) Implement access control list for IPC usage.
+- [`7f033f6d`](https://www.github.com/tauri-apps/tauri/commit/7f033f6dcd54c69a4193765a5c1584755ba92c61)([#8537](https://www.github.com/tauri-apps/tauri/pull/8537)) Add `Window.startResizeDragging`.
+
 ## \[2.0.0-alpha.14]
 
 ### Bug Fixes

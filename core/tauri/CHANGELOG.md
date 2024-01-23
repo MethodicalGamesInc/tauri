@@ -1,5 +1,28 @@
 # Changelog
 
+## \[2.0.0-alpha.22]
+
+### New Features
+
+- [`74a2a603`](https://www.github.com/tauri-apps/tauri/commit/74a2a6036a5e57462f161d728cbd8a6f121028ca)([#8661](https://www.github.com/tauri-apps/tauri/pull/8661)) Implement access control list for IPC usage.
+
+### Bug Fixes
+
+- [`7f033f6d`](https://www.github.com/tauri-apps/tauri/commit/7f033f6dcd54c69a4193765a5c1584755ba92c61)([#8537](https://www.github.com/tauri-apps/tauri/pull/8537)) Fix undecorated window resizing on Windows and Linux.
+
+### What's Changed
+
+- [`9f8037c2`](https://www.github.com/tauri-apps/tauri/commit/9f8037c2882abac19582025001675370f0d7b669)([#8633](https://www.github.com/tauri-apps/tauri/pull/8633)) On Windows, fix decorated window not transparent initially until resized.
+- [`7f033f6d`](https://www.github.com/tauri-apps/tauri/commit/7f033f6dcd54c69a4193765a5c1584755ba92c61)([#8537](https://www.github.com/tauri-apps/tauri/pull/8537)) Add `Window::start_resize_dragging` and `ResizeDirection` enum.
+
+### Dependencies
+
+- Upgraded to `tauri-build@2.0.0-alpha.15`
+- Upgraded to `tauri-utils@2.0.0-alpha.14`
+- Upgraded to `tauri-macros@2.0.0-alpha.14`
+- Upgraded to `tauri-runtime-wry@1.0.0-alpha.10`
+- Upgraded to `tauri-runtime@1.0.0-alpha.9`
+
 ## \[2.0.0-alpha.21]
 
 ### New Features

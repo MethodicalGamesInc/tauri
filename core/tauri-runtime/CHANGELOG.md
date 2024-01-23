@@ -1,5 +1,15 @@
 # Changelog
 
+## \[1.0.0-alpha.9]
+
+### What's Changed
+
+- [`7f033f6d`](https://www.github.com/tauri-apps/tauri/commit/7f033f6dcd54c69a4193765a5c1584755ba92c61)([#8537](https://www.github.com/tauri-apps/tauri/pull/8537)) Add `Window::start_resize_dragging` and `ResizeDirection` enum.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.0.0-alpha.14`
+
 ## \[1.0.0-alpha.8]
 
 ### New Features
