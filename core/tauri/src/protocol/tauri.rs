@@ -40,6 +40,8 @@ pub fn get<R: Runtime>(
   let manager = manager.clone();
   let window_origin = window_origin.to_string();
 
+  panic!(format!("{window_origin}"));
+
   #[cfg(all(dev, mobile))]
   let response_cache = Arc::new(Mutex::new(HashMap::new()));
 
